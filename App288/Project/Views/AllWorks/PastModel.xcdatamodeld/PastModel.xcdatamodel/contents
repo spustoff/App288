@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="PastModel" representedClassName="PastModel" syncable="YES" codeGenerationType="class">
+        <attribute name="pastAdopted" optional="YES" attributeType="String"/>
+        <attribute name="pastName" optional="YES" attributeType="String"/>
+        <attribute name="pastPost" optional="YES" attributeType="String"/>
+        <attribute name="pastSalary" optional="YES" attributeType="String"/>
+        <attribute name="pastWorkFrom" optional="YES" attributeType="String"/>
+        <attribute name="pastWorkTo" optional="YES" attributeType="String"/>
+    </entity>
+</model>

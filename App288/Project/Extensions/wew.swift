@@ -214,11 +214,15 @@ func getFirebaseData(field: String, dataType: DataType, completion: @escaping (A
             }
             
             completion(url)
+            
+        } else if dataType == .string {
+            
+            completion(config.configValue(forKey: field).stringValue ?? "")
         }
     }
 }
 
 enum DataType: CaseIterable {
     
-    case bool, url
+    case bool, url, string
 }
